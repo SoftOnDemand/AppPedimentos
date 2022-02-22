@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sucursales">
+        <item>
+            Veracruz
+        </item>
+        <item>
+            Manzanillo
+        </item>
+        <item>
+            Coatzacoalcos
+        </item>
+    </string-array>
+    <string-array name="estados">
+        <item>
+            En Progreso
+        </item>
+        <item>
+            Finalizado
+        </item>
+    </string-array>
+
+</resources>

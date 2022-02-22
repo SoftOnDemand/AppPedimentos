@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- COLORES DE LA APP   -->
+    <color name="transpartente">#00FFFFFF</color>
+    <color name="green">#03D207</color>
+    <color name="colorPrimaryTextLight">#263238</color>
+    <color name="colorPrimaryTextDark">#000000</color>
+    <color name="colorPrimary">#1F4287</color>
+    <color name="colorPrimaryApp">#549729</color>
+    <color name="colorPrimaryDark">#002F6C</color>
+    <color name="colorPrimaryDarkApp">#313131</color>
+    <color name="colorAccent">#4F83CC</color>
+    <color name="colorPrimaryText">#FFFFFF</color>
+    <color name="colorTextApp">#AAAAAA</color>
+    <color name="colorPrimaryTextApp">#F9F9FB</color>
+    <color name="colorSecondaryText">#63686E</color>
+
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">App Pedimentos</string>
+    <string name="usuario">USUARIO</string>
+    <string name="contrasenia">CONTRASEÑA</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="title_activity_pedimentos">Pedimentos</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Pedimentos</string>
+    <string name="second_fragment_label">Detalle Pedimento</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="editar">Editar</string>
+    <string name="ejecutivo">Ejecutivo</string>
+    <string name="no_pedimento">No. Pedimento</string>
+    <string name="fecha_creacion">Fecha Creacion</string>
+    <string name="fecha_arribo">Fecha Arribo</string>
+    <string name="sucursal">Sucursal</string>
+    <string name="estado">Estado</string>
+    <string name="guardar">Guardar</string>
+    <string name="crear_pedimento">Nuevo Pedimento</string>
+</resources>

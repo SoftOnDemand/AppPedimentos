@@ -1,6 +1,7 @@
 package com.softon.apppedimentos.Controladores.Pedimentos;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -47,13 +48,21 @@ public class RVPedAdapter extends RecyclerView.Adapter<PedimentosViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull PedimentosViewHolder holder, int position) {
-    holder.btnEditarPedimento.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-             NavHostFragment.findNavController(fragment)
-            .navigate(R.id.action_FirstFragment_to_SecondFragment);
-        }
-    });
+
+        holder.noPedimento.setText(pedimentoList.get(position).getNoPedimento());
+        holder.nomEjecutivo.setText(pedimentoList.get(position).getNomEjecutivo());
+        holder.btnEditarPedimento.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = fragment.getActivity().getIntent();
+
+                intent.putExtra("pedimento",pedimentoList.get(position));
+
+                 NavHostFragment.findNavController(fragment)
+                .navigate(R.id.action_FirstFragment_to_SecondFragment);
+            }
+        });
 
 
     }

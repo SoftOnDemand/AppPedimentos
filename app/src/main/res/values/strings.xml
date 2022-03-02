@@ -21,4 +21,6 @@
     <string name="estado">Estado</string>
     <string name="guardar">Guardar</string>
     <string name="crear_pedimento">Nuevo Pedimento</string>
+    <string name="editar_pedimento">Editar Pedimento</string>
+    <string name="eliminar">Eliminar</string>
 </resources>

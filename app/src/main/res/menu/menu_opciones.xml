@@ -6,13 +6,15 @@
         android:icon="@android:drawable/ic_menu_info_details"
         app:showAsAction="ifRoom">
         <menu >
-            <item android:title="Editar"
+            <item android:title="@string/editar"
+                android:id="@+id/menuEditar"
                 app:showAsAction="collapseActionView"
                 android:icon="@android:drawable/ic_menu_edit"/>
 
-            <item android:title="Finalizar"
+            <item android:title="@string/eliminar"
+                android:id="@+id/menuEliminar"
                 app:showAsAction="collapseActionView"
-                android:icon="@android:drawable/ic_menu_edit"/>
+                android:icon="@android:drawable/ic_dialog_alert"/>
         </menu>
     </item>
 </menu>

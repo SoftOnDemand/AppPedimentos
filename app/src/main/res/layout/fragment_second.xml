@@ -38,6 +38,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/txtDetalleEjecutivo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|clip_vertical"
@@ -75,6 +76,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/txtDetalleNoPedimento"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|clip_vertical"
@@ -112,6 +114,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/txtDetalleFechaCreacion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|clip_vertical"
@@ -149,6 +152,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/txtDetalleFechaArribo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|clip_vertical"
@@ -186,6 +190,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/txtDetalleSucursal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|clip_vertical"
@@ -223,6 +228,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/txtDetalleEstado"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|clip_vertical"
